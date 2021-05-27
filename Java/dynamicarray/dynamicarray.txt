@@ -1,0 +1,12 @@
+Implementing Dynamic Array:
+- create static array
+- add element and keep track length
+- if exceed capacity -> create new array with twice the capacity and copy the original elements to the new one
+
+Complexity:
+			Static  Dynamic
+Access: 	O(1)	O(1)
+Search: 	O(n)	O(n)
+Insertion:	N/A 	O(n)
+Appending: 	N/A 	O(1)
+Delete:		N/A 	O(n)
