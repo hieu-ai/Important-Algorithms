@@ -38,7 +38,7 @@ public class Array <T> implements Iterable <T>{
 			arr = new_arr;
 		}
 
-		arr[len+1] = elem;
+		arr[len++] = elem;
 	}
 
 	// Removes element at specific index, return the data that we just removed

@@ -1,0 +1,32 @@
+WHAT?
+- is a sequential list of nodes that hold data which point to other nodes also containing data.
+- every node has pointer to the next node. Last node point to null
+
+WHERE are USED?
+- Used in many List, Queue, and Stack implementations
+- Great for creating circular lists
+- Can easily model real world objects such as trains
+- Used in seperate chaining, which is present certain Hashtable implementations to deal with hashing collisions.
+- Often used in implementation of adjacent lists for graphs
+
+TERMINOLOGY
+-Head: 
+-Tail:
+-Pointer:
+-Node:
+
+			Pros 			vs 					Cons 
+Singly	Uses less memory				Cannot easily access previous elements
+											(need 2 trav for delete)
+Doubly	Can be tranversed bacwards		Take 2x memory
+
+
+COMPLEXITY
+
+					Singly		vs		Doubly
+Search				O(n)				O(n)
+Insert at Head 		O(1)				O(1)
+Inser at Tail		O(1)				O(1)
+Remove at Head		O(1)				O(1)
+Remove at Tail		O(n)				O(1)
+Remove in middle	O(n)				O(n)
